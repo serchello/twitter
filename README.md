@@ -24,22 +24,21 @@ Now, in http://127.0.0.1:8000 you can create new user, please do it
 in your SQL for delete pare keys.
 8) This project can being tested now
 
-## Run testing
-1) From root project run > ./vendor/bin/phpunit
-UserControllerTest.php (path  --test/UserControllerTest, i did only basic (9)). 
+## Run test
+From root project run (UserControllerTest.php i did only basic (9))
+- ./vendor/bin/phpunit
+
+## FOR API 
+-  http://127.0.0.1:8000/api/users
+-  http://127.0.0.1:8000/api/statistics
 
 
-
-MY COMMENTS
+## MY COMMENTS
 * Add validation on post new tweet. Allow only 140 characters  << created with validate(Rule Laravel) and html limit input
-* On the timeline page, the user should see a list of all tweets from users who follow << created 2 functionality, because i dont
-understood (Followers or Following)
+* On the timeline page, the user should see a list of all tweets from users who follow  --  created 2 functionality, because i didnt understand (Followers or Following)
 * Style pages with Material UI
 * Create a table in a database where the developer should store every page the user has visited and DateTime forevery record (Log_activities)
 * Cache api results for 1 minute.(file cache).
-* FOR API 
--  http://127.0.0.1:8000/api/users
--  http://127.0.0.1:8000/api/statistics
 * All images and avatar stored path -- public/images/<user_name>
 * Dont forget enable extension  "extension=gd"  << php.ini for images (ratio)
 * Images for testing you can find Public/Example_Image
