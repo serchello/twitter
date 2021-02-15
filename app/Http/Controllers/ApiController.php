@@ -11,7 +11,7 @@ use DateTime;
 class ApiController extends Controller
 {
 
-    private $CACHE_TIMEOUT = 20;
+    private $CACHE_TIMEOUT = 60;
     
     /**
      * users API
