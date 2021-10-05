@@ -1,3 +1,7 @@
+[Backend Software Engineer Assignment.pdf](https://github.com/sergios1983/twitter/files/7285416/Backend.Software.Engineer.Assignment.pdf)
+
+
+
 # TWITTER
 
 ## About Installation
